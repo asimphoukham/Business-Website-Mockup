@@ -1,0 +1,231 @@
+
+@font-face {
+    font-family: "Montauk";
+    src: url(../Fonts/Montauk-Regular.otf) format("OpenType");
+    }
+    
+    *{font-family: "Dosis";
+    color: black;}
+    
+/*
+font-family: 'Dosis', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+.banner{
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+  min-width: 100%;
+  background-position: center;
+  position: relative;
+  height: 52rem;
+  background-repeat: no-repeat;
+}
+
+h1,h2,h3,h4 {
+
+  font-weight: bold;
+  color: #c00606;
+
+}
+
+h5{
+  color:wheat;
+  font-size: 1.375em;
+}
+
+.border {
+  color:#c00606;
+}
+
+.greyTop{
+    background-color: #1f1f1f;
+    min-height: 10rem;
+}
+
+.greyBottom{
+    background-color: #1f1f1f;
+    min-height: 3rem;
+}
+
+.rectangle{
+    min-height: 6rem;
+    max-width: 94%;
+    background-color: #1f1f1f;
+    border-color: red;
+    border-style: solid;
+    color:white;
+    margin-bottom:2rem;
+}
+
+.about{
+    margin-top:42%;
+}
+
+.fa {
+    padding: 1.250em;
+    font-size: 1.875em;
+    width: 1.875em;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa:hover {
+   
+    background-color:#c00606;
+
+}
+
+.fa-facebook {
+
+    background: #1f1f1f;
+    color: white;   
+  }
+
+  .fa-twitter {
+    background: #1f1f1f;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #1f1f1f;
+    color: white;
+  }
+
+  .socialMedia{
+      padding-top:2.5rem;
+      text-align: center;
+  }
+
+  .reservationBox{
+    min-height: 18rem;
+    width: 97%;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    margin-top:5%;
+  }
+
+  .reservText{
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .call{
+      text-align: center;
+      color:gray;
+      margin-bottom: 5%;
+  }
+
+  body, html {
+    height: 100%;
+  }
+  
+.btn{
+  border-radius: 300px !important;
+  font-size: 1.5rem;
+}
+
+/*Navbar*/
+.navbar-dark .navbar-nav .nav-link{
+  color: lightgray;
+}
+
+.nav-link{
+  font-weight: bold;
+  font-size: 1.250em;
+}
+
+a:hover {
+  color: white !important;
+  text-decoration: none;
+}
+
+/* Drinks */
+#drinkSection {
+  background-image: url("../images/pacificDrink.jpg");
+  background-size: cover;
+  min-height: 70rem;
+}
+.drinksFont{
+  color: white;
+}
+#michaelText {
+  color: white;
+  padding-top: 5rem;
+}
+#michaelText2 {
+  color: white;
+  padding-top: 1rem;
+}
+#drinkDescription {
+  text-align: left;
+  color:white;
+}
+.drinkPrice{
+  float: right;
+  color: wheat;
+}
+
+.drink{
+  margin-top:5%;
+}
+
+/*About Section*/
+#aboutPhoto {
+  float: right;
+  border-radius: 1%;
+  margin-left: 1rem;
+}
+#aboutH1 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#white{
+  color:white;
+}
+
+.carousel-item{
+  height: 50rem;
+  width:100%;
+} 
+.carousel-item img{
+  height: 50rem;
+  width: 100%;
+}
+
+.aboutPart{
+  padding-left: 5%;
+}
+
+.contact{
+  padding-top:15%;
+}
+
+/*Menu*/
+.app{
+  Margin-top:11.5rem;
+}
+
+#woodbg{
+  /*background-image:url('/images/woodbg.jpg');
+  background-repeat: no-repeat;*/
+  background-color:black;
+ 
+}
+
+.white{
+  color:white;
+}
+
+#happyHours{
+  margin-bottom: 10rem;
+  margin-top: 5rem;
+}
+
+p {
+
+  font-size: 1.125em;
+}
+
